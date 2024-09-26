@@ -96,11 +96,13 @@ video {
 /* 02. Centrer horizontalement */
 
 .calltoaction {
-  margin-bottom: 15px;
+  width: fit-content;
   padding: 15px 30px;
   background: #fdf0d5;
   border: 1px solid #c1121f;
   text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto 15px;
 }
 
 .link {
@@ -110,6 +112,9 @@ video {
   color: #fdf0d5;
   font-family: "Libre Baskerville";
   text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 
 /* 03. Centrer verticalement */
